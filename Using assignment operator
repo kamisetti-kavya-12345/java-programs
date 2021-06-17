@@ -1,0 +1,10 @@
+public class Op1 {
+	public static void main(String[] args) {
+		int a = 35;
+		int b = 10;
+		int c = 50;			 
+		 c += b;  // c = c+b; // 60
+		 System.out.println(c);	
+		 c -= b;  // c = c-b; // 40
+		 System.out.println(c);			 
+	} }
