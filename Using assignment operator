@@ -1,0 +1,11 @@
+public class Op1 {
+	public static void main(String[] args) {
+		int a = 25;
+		int b = 10;
+		int c = 40;
+		System.out.println(a<b && a<c); // false
+		System.out.println(a>b && a<c); // true
+		System.out.println(a<b || a<c); // true
+		System.out.println(a<b || a>c); // false
+		System.out.println(a>b || a<c); // true
+	} }
